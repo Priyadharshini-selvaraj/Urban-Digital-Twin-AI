@@ -1,0 +1,20 @@
+{
+  "modelName": "Tech Park & Innovation Campus (.skp)",
+  "vertices": [
+    { "x": 0, "z": 0, "label": "Tech Node T1 - AI Research Center" },
+    { "x": 10, "z": 0, "label": "Tech Node T2 - Silicon Tower" },
+    { "x": 5, "z": 15, "label": "Tech Node T3 - Clean Energy Lab" },
+    { "x": 18, "z": 10, "label": "Tech Node T4 - Smart Grid Substation" },
+    { "x": 22, "z": -5, "label": "Tech Node T5 - Executive Helipad" },
+    { "x": 28, "z": 22, "label": "Tech Node T6 - Express Metro Junction" }
+  ],
+  "lines": [
+    { "fromIndex": 0, "toIndex": 1, "speedLimit": 50, "congestion": 0.3, "safetyRisk": 0.1 },
+    { "fromIndex": 0, "toIndex": 2, "speedLimit": 70, "congestion": 0.05, "safetyRisk": 0.05 },
+    { "fromIndex": 1, "toIndex": 3, "speedLimit": 60, "congestion": 0.5, "safetyRisk": 0.2 },
+    { "fromIndex": 2, "toIndex": 3, "speedLimit": 65, "congestion": 0.1, "safetyRisk": 0.1 },
+    { "fromIndex": 2, "toIndex": 5, "speedLimit": 110, "congestion": 0.02, "safetyRisk": 0.02 },
+    { "fromIndex": 3, "toIndex": 5, "speedLimit": 75, "congestion": 0.4, "safetyRisk": 0.15 },
+    { "fromIndex": 4, "toIndex": 5, "speedLimit": 85, "congestion": 0.1, "safetyRisk": 0.05 }
+  ]
+}

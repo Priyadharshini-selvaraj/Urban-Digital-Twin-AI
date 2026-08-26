@@ -1,0 +1,22 @@
+# j2_highway_corridor.obj
+# 6-junction linear highway corridor with 2 parallel service roads
+# v1=N1 (Start) ... v6=N6 (Airport/End)
+
+v 0.0   0.0   0.0
+v 8.0   0.0   0.0
+v 16.0  0.0   0.0
+v 24.0  0.0   0.0
+v 32.0  0.0   0.0
+v 40.0  0.0   0.0
+v 8.0   3.0   0.0
+v 24.0  3.0   0.0
+
+l 1 2
+l 2 3
+l 3 4
+l 4 5
+l 5 6
+l 2 7
+l 7 4
+l 4 8
+l 8 6

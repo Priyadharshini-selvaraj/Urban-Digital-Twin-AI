@@ -1,0 +1,19 @@
+{
+  "modelName": "Coastal Harbor & Logistics Hub (.skp)",
+  "vertices": [
+    { "x": -10, "z": -10, "label": "Node H1 - Container Terminal" },
+    { "x": 5, "z": -5, "label": "Node H2 - Marine Customs" },
+    { "x": -2, "z": 15, "label": "Node H3 - Logistics Warehouses" },
+    { "x": 16, "z": 12, "label": "Node H4 - Coastal Highway Interchange" },
+    { "x": 25, "z": -2, "label": "Node H5 - Freight Rail Depot" },
+    { "x": 30, "z": 20, "label": "Node H6 - Regional Distribution Hub" }
+  ],
+  "lines": [
+    { "fromIndex": 0, "toIndex": 1, "speedLimit": 45, "congestion": 0.4, "safetyRisk": 0.2 },
+    { "fromIndex": 0, "toIndex": 2, "speedLimit": 60, "congestion": 0.2, "safetyRisk": 0.1 },
+    { "fromIndex": 1, "toIndex": 3, "speedLimit": 55, "congestion": 0.7, "safetyRisk": 0.3 },
+    { "fromIndex": 2, "toIndex": 3, "speedLimit": 70, "congestion": 0.1, "safetyRisk": 0.05 },
+    { "fromIndex": 3, "toIndex": 5, "speedLimit": 90, "congestion": 0.15, "safetyRisk": 0.1 },
+    { "fromIndex": 4, "toIndex": 5, "speedLimit": 80, "congestion": 0.3, "safetyRisk": 0.15 }
+  ]
+}

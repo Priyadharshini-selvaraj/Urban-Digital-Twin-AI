@@ -1,0 +1,21 @@
+{
+  "modelName": "Smart Metropolis Downtown Core (.skp)",
+  "vertices": [
+    { "x": 0, "z": 0, "label": "Intersection A1 - City Center Plaza" },
+    { "x": 12.5, "z": 4.2, "label": "Intersection B2 - Financial Tower" },
+    { "x": 6.8, "z": 18.4, "label": "Intersection C3 - Innovation Park" },
+    { "x": 22.1, "z": 11.9, "label": "Intersection D4 - Residential North" },
+    { "x": 28.4, "z": 2.5, "label": "Intersection E5 - Port & Harbor Quay" },
+    { "x": 34.2, "z": 22.8, "label": "Intersection F6 - Skyport International" }
+  ],
+  "lines": [
+    { "fromIndex": 0, "toIndex": 1, "speedLimit": 50, "congestion": 0.8, "safetyRisk": 0.3 },
+    { "fromIndex": 0, "toIndex": 2, "speedLimit": 80, "congestion": 0.1, "safetyRisk": 0.05 },
+    { "fromIndex": 1, "toIndex": 3, "speedLimit": 40, "congestion": 0.9, "safetyRisk": 0.4 },
+    { "fromIndex": 1, "toIndex": 4, "speedLimit": 60, "congestion": 0.25, "safetyRisk": 0.15 },
+    { "fromIndex": 2, "toIndex": 3, "speedLimit": 65, "congestion": 0.15, "safetyRisk": 0.1 },
+    { "fromIndex": 2, "toIndex": 5, "speedLimit": 100, "congestion": 0.05, "safetyRisk": 0.02 },
+    { "fromIndex": 3, "toIndex": 5, "speedLimit": 55, "congestion": 0.65, "safetyRisk": 0.25 },
+    { "fromIndex": 4, "toIndex": 5, "speedLimit": 85, "congestion": 0.2, "safetyRisk": 0.1 }
+  ]
+}

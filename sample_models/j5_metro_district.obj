@@ -1,0 +1,41 @@
+# j5_metro_district.obj - Smart Metro District City Road Network
+# 12 Intersection Nodes + 18 Road Edges
+# Format: v x y z Label
+# Format: l from_index to_index speedLimit congestion safetyRisk
+
+# === 12 Intersection Nodes ===
+v 0.0 0.0 0.0 J1_Central_Station
+v 12.0 0.0 0.0 J2_North_Boulevard
+v 24.0 0.0 0.0 J3_Tech_District
+v 36.0 0.0 0.0 J4_Harbor_Gate
+v 0.0 0.0 15.0 J5_West_Market
+v 12.0 0.0 15.0 J6_City_Square
+v 24.0 0.0 15.0 J7_Industrial_Zone
+v 36.0 0.0 15.0 J8_East_Port
+v 0.0 0.0 30.0 J9_South_Park
+v 12.0 0.0 30.0 J10_University_Ave
+v 24.0 0.0 30.0 J11_Financial_Hub
+v 36.0 0.0 30.0 J12_Airport_Terminal
+
+# === 18 Road Edges ===
+# Horizontal roads (West-East)
+l 1 2 60 0.65 0.25
+l 2 3 75 0.30 0.10
+l 3 4 80 0.20 0.08
+l 5 6 50 0.70 0.30
+l 6 7 65 0.45 0.15
+l 7 8 70 0.35 0.12
+l 9 10 55 0.25 0.10
+l 10 11 85 0.10 0.05
+l 11 12 90 0.08 0.04
+
+# Vertical roads (North-South)
+l 1 5 45 0.80 0.35
+l 2 6 60 0.50 0.20
+l 3 7 70 0.40 0.15
+l 4 8 55 0.60 0.25
+l 5 9 50 0.30 0.12
+l 6 10 65 0.20 0.08
+l 7 11 75 0.15 0.06
+l 8 12 80 0.25 0.10
+l 2 7 85 0.35 0.12

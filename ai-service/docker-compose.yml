@@ -1,0 +1,13 @@
+version: '3'
+services:
+  flask-ml:
+    container_name: flask-ml
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    image: flask-ml
+    env_file:
+      - ./docker/.env
+    restart: always
+    ports:
+      - "5000:5000"
